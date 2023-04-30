@@ -1,10 +1,12 @@
-# Tasks API
+# 📝 Tasks API
 
 This is the first challenge of node.js of the Ignite Course from Rocketseat. 
 
 It consists in a simple API that manages tasks (Create, Register, Update and Delete). Also, there's a functionality that imports tasks from a CSV file. The API is made with pure node.js, not using any frameworks, with the aim of learning the basics and some things that frameworks do behind the scenes.
 
-# Usage
+![](https://github.com/thainapires/task-api-crud/blob/main/ezgif-4-04ac562a7d.gif?raw=true)
+
+# 📌 Usage
 
 If you want to test the API, you can follow these steps:
 
@@ -12,9 +14,9 @@ If you want to test the API, you can follow these steps:
 2. Run ```npm i``` to install the csv-parser
 3. Run ```npm run dev``` to start the server
 
-# Tasks fields and Routes
+# 📌 Tasks fields and Routes
 
-## Fields
+## 📂 Fields
 
 The structure of a Task in the database is as it follows:
 
@@ -25,7 +27,7 @@ The structure of a Task in the database is as it follows:
 - `created_at` - Date the task was created.
 - `updated_at` - Date the task was updated.
 
-## Routes:
+## 🔗 Routes:
 
 <details>
 <summary> POST - /tasks </summary>
@@ -52,6 +54,6 @@ The structure of a Task in the database is as it follows:
   Route to mark a task as complete. 
 </details>
 
-# Import tasks via csv
+# 📥 Import tasks via csv
 
 To import tasks via csv, run ```node src/import_CSV/import.js``` in the route directory.
